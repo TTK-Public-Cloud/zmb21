@@ -1,0 +1,318 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<abapGit version="v1.0.0" serializer="LCL_OBJECT_DTEL" serializer_version="v1.0.0">
+ <asx:abap xmlns:asx="http://www.sap.com/abapxml" version="1.0">
+  <asx:values>
+   <DD04V>
+    <ROLLNAME>ZDE_BSTER</ROLLNAME>
+    <DDLANGUAGE>E</DDLANGUAGE>
+    <DOMNAME>DATUM</DOMNAME>
+    <HEADLEN>10</HEADLEN>
+    <SCRLEN1>10</SCRLEN1>
+    <SCRLEN2>15</SCRLEN2>
+    <SCRLEN3>20</SCRLEN3>
+    <DDTEXT>Base date for reservation</DDTEXT>
+    <REPTEXT>Base date</REPTEXT>
+    <SCRTEXT_S>Base date</SCRTEXT_S>
+    <SCRTEXT_M>Base date</SCRTEXT_M>
+    <SCRTEXT_L>Base date</SCRTEXT_L>
+    <APPLCLASS>MB</APPLCLASS>
+    <DTELMASTER>D</DTELMASTER>
+    <DEFFDNAME>RES_DATE</DEFFDNAME>
+    <REFKIND>D</REFKIND>
+    <ABAP_LANGUAGE_VERSION>5</ABAP_LANGUAGE_VERSION>
+   </DD04V>
+   <I18N_LANGS>
+    <LANGU>1</LANGU>
+    <LANGU>2</LANGU>
+    <LANGU>3</LANGU>
+    <LANGU>4</LANGU>
+    <LANGU>5</LANGU>
+    <LANGU>6</LANGU>
+    <LANGU>7</LANGU>
+    <LANGU>8</LANGU>
+    <LANGU>A</LANGU>
+    <LANGU>B</LANGU>
+    <LANGU>C</LANGU>
+    <LANGU>D</LANGU>
+    <LANGU>F</LANGU>
+    <LANGU>G</LANGU>
+    <LANGU>H</LANGU>
+    <LANGU>I</LANGU>
+    <LANGU>J</LANGU>
+    <LANGU>K</LANGU>
+    <LANGU>L</LANGU>
+    <LANGU>M</LANGU>
+    <LANGU>N</LANGU>
+    <LANGU>O</LANGU>
+    <LANGU>P</LANGU>
+    <LANGU>Q</LANGU>
+    <LANGU>R</LANGU>
+    <LANGU>S</LANGU>
+    <LANGU>T</LANGU>
+    <LANGU>U</LANGU>
+    <LANGU>V</LANGU>
+    <LANGU>W</LANGU>
+    <LANGU>d</LANGU>
+    <LANGU>뱋</LANGU>
+   </I18N_LANGS>
+   <DD04_TEXTS>
+    <item>
+     <DDLANGUAGE>1</DDLANGUAGE>
+     <DDTEXT>预订基准日期</DDTEXT>
+     <REPTEXT>基准日期</REPTEXT>
+     <SCRTEXT_S>基准日期</SCRTEXT_S>
+     <SCRTEXT_M>基准日期</SCRTEXT_M>
+     <SCRTEXT_L>基准日期</SCRTEXT_L>
+    </item>
+    <item>
+     <DDLANGUAGE>2</DDLANGUAGE>
+     <DDTEXT>วันที่ฐานสำหรับการสำรอง</DDTEXT>
+     <REPTEXT>วันที่ฐาน</REPTEXT>
+     <SCRTEXT_S>วันที่ฐาน</SCRTEXT_S>
+     <SCRTEXT_M>วันที่ฐาน</SCRTEXT_M>
+     <SCRTEXT_L>วันที่ฐาน</SCRTEXT_L>
+    </item>
+    <item>
+     <DDLANGUAGE>3</DDLANGUAGE>
+     <DDTEXT>예약기준일</DDTEXT>
+     <REPTEXT>기준일</REPTEXT>
+     <SCRTEXT_S>기준일</SCRTEXT_S>
+     <SCRTEXT_M>기준일</SCRTEXT_M>
+     <SCRTEXT_L>기준일</SCRTEXT_L>
+    </item>
+    <item>
+     <DDLANGUAGE>4</DDLANGUAGE>
+     <DDTEXT>Dată de bază pt.rezervare</DDTEXT>
+     <REPTEXT>Dată bază</REPTEXT>
+     <SCRTEXT_S>Dată bază</SCRTEXT_S>
+     <SCRTEXT_M>Dată bază</SCRTEXT_M>
+     <SCRTEXT_L>Dată bază</SCRTEXT_L>
+    </item>
+    <item>
+     <DDLANGUAGE>5</DDLANGUAGE>
+     <DDTEXT>Osnovni termin za rezervacijo</DDTEXT>
+     <REPTEXT>Osn.ter.</REPTEXT>
+     <SCRTEXT_S>Osn.ter.</SCRTEXT_S>
+     <SCRTEXT_M>Osnovni termin</SCRTEXT_M>
+     <SCRTEXT_L>Osnovni termin</SCRTEXT_L>
+    </item>
+    <item>
+     <DDLANGUAGE>6</DDLANGUAGE>
+     <DDTEXT>Osn. datum za rezervaciju</DDTEXT>
+     <REPTEXT>Osn.datum</REPTEXT>
+     <SCRTEXT_S>Osn.datum</SCRTEXT_S>
+     <SCRTEXT_M>Osnovni datum</SCRTEXT_M>
+     <SCRTEXT_L>Osnovni datum</SCRTEXT_L>
+    </item>
+    <item>
+     <DDLANGUAGE>7</DDLANGUAGE>
+     <DDTEXT>Tarikh asas untuk tempahan</DDTEXT>
+     <REPTEXT>Trkh asas</REPTEXT>
+     <SCRTEXT_S>Trkh asas</SCRTEXT_S>
+     <SCRTEXT_M>Tarikh asas</SCRTEXT_M>
+     <SCRTEXT_L>Tarikh asas</SCRTEXT_L>
+    </item>
+    <item>
+     <DDLANGUAGE>8</DDLANGUAGE>
+     <DDTEXT>Базова дата для резервування</DDTEXT>
+     <REPTEXT>Баз.дата</REPTEXT>
+     <SCRTEXT_S>Баз.дата</SCRTEXT_S>
+     <SCRTEXT_M>Базова дата</SCRTEXT_M>
+     <SCRTEXT_L>Базова дата</SCRTEXT_L>
+    </item>
+    <item>
+     <DDLANGUAGE>A</DDLANGUAGE>
+     <DDTEXT>التاريخ الأساسي للحجز</DDTEXT>
+     <REPTEXT>ت. أساسي</REPTEXT>
+     <SCRTEXT_S>ت. أساسي</SCRTEXT_S>
+     <SCRTEXT_M>التاريخ الأساسي</SCRTEXT_M>
+     <SCRTEXT_L>التاريخ الأساسي</SCRTEXT_L>
+    </item>
+    <item>
+     <DDLANGUAGE>B</DDLANGUAGE>
+     <DDTEXT>תאריך בסיס להזמנה</DDTEXT>
+     <REPTEXT>תאריך בסיס</REPTEXT>
+     <SCRTEXT_S>תאריך בסיס</SCRTEXT_S>
+     <SCRTEXT_M>תאריך הבסיס</SCRTEXT_M>
+     <SCRTEXT_L>תאריך הבסיס</SCRTEXT_L>
+    </item>
+    <item>
+     <DDLANGUAGE>C</DDLANGUAGE>
+     <DDTEXT>Základní datum rezervace</DDTEXT>
+     <REPTEXT>Zákl.datum</REPTEXT>
+     <SCRTEXT_S>Zákl.datum</SCRTEXT_S>
+     <SCRTEXT_M>Zákl.termín</SCRTEXT_M>
+     <SCRTEXT_L>Zákl.termín</SCRTEXT_L>
+    </item>
+    <item>
+     <DDLANGUAGE>D</DDLANGUAGE>
+     <DDTEXT>Basistermin der Reservierung</DDTEXT>
+     <REPTEXT>Basister</REPTEXT>
+     <SCRTEXT_S>Basister</SCRTEXT_S>
+     <SCRTEXT_M>Basistermin</SCRTEXT_M>
+     <SCRTEXT_L>Basistermin</SCRTEXT_L>
+    </item>
+    <item>
+     <DDLANGUAGE>F</DDLANGUAGE>
+     <DDTEXT>Date de référence pour réservation</DDTEXT>
+     <REPTEXT>Date réf.</REPTEXT>
+     <SCRTEXT_S>Date réf.</SCRTEXT_S>
+     <SCRTEXT_M>Date référence</SCRTEXT_M>
+     <SCRTEXT_L>Date de référence</SCRTEXT_L>
+    </item>
+    <item>
+     <DDLANGUAGE>G</DDLANGUAGE>
+     <DDTEXT>Ημερομηνία βάσης για κράτηση</DDTEXT>
+     <REPTEXT>Ημερ.βάσης</REPTEXT>
+     <SCRTEXT_S>Ημερ.βάσης</SCRTEXT_S>
+     <SCRTEXT_M>Ημερομην.βάσης</SCRTEXT_M>
+     <SCRTEXT_L>Ημερομηνία βάσης</SCRTEXT_L>
+    </item>
+    <item>
+     <DDLANGUAGE>H</DDLANGUAGE>
+     <DDTEXT>A foglalás bázishatárideje</DDTEXT>
+     <REPTEXT>Bázishat.i</REPTEXT>
+     <SCRTEXT_S>Bázishat.i</SCRTEXT_S>
+     <SCRTEXT_M>Bázishatáridő</SCRTEXT_M>
+     <SCRTEXT_L>Bázishatáridő</SCRTEXT_L>
+    </item>
+    <item>
+     <DDLANGUAGE>I</DDLANGUAGE>
+     <DDTEXT>Data di base dell&apos;impegno</DDTEXT>
+     <REPTEXT>Data base</REPTEXT>
+     <SCRTEXT_S>Data base</SCRTEXT_S>
+     <SCRTEXT_M>Data di base</SCRTEXT_M>
+     <SCRTEXT_L>Data di base</SCRTEXT_L>
+    </item>
+    <item>
+     <DDLANGUAGE>J</DDLANGUAGE>
+     <DDTEXT>入出庫予定を管理する基準日</DDTEXT>
+     <REPTEXT>予定日付</REPTEXT>
+     <SCRTEXT_S>予定日付</SCRTEXT_S>
+     <SCRTEXT_M>入出庫予定日付</SCRTEXT_M>
+     <SCRTEXT_L>入出庫予定日付</SCRTEXT_L>
+    </item>
+    <item>
+     <DDLANGUAGE>K</DDLANGUAGE>
+     <DDTEXT>Basistidsp. på reservering</DDTEXT>
+     <REPTEXT>Basisterm.</REPTEXT>
+     <SCRTEXT_S>Basisterm.</SCRTEXT_S>
+     <SCRTEXT_M>Basistidsp.</SCRTEXT_M>
+     <SCRTEXT_L>Basistidsp.</SCRTEXT_L>
+    </item>
+    <item>
+     <DDLANGUAGE>L</DDLANGUAGE>
+     <DDTEXT>Data podstawowa dla rezerwacji</DDTEXT>
+     <REPTEXT>Data pods.</REPTEXT>
+     <SCRTEXT_S>Data pods.</SCRTEXT_S>
+     <SCRTEXT_M>Term. podst.</SCRTEXT_M>
+     <SCRTEXT_L>Termin podstawowy</SCRTEXT_L>
+    </item>
+    <item>
+     <DDLANGUAGE>M</DDLANGUAGE>
+     <DDTEXT>預訂基本日期</DDTEXT>
+     <REPTEXT>基本日期</REPTEXT>
+     <SCRTEXT_S>基本日期</SCRTEXT_S>
+     <SCRTEXT_M>基本日期</SCRTEXT_M>
+     <SCRTEXT_L>基本日期</SCRTEXT_L>
+    </item>
+    <item>
+     <DDLANGUAGE>N</DDLANGUAGE>
+     <DDTEXT>Basistermijn van reservering</DDTEXT>
+     <REPTEXT>Basisterm.</REPTEXT>
+     <SCRTEXT_S>Basisterm.</SCRTEXT_S>
+     <SCRTEXT_M>Basistermijn</SCRTEXT_M>
+     <SCRTEXT_L>Basistermijn</SCRTEXT_L>
+    </item>
+    <item>
+     <DDLANGUAGE>O</DDLANGUAGE>
+     <DDTEXT>Basistidspunkt for reservering</DDTEXT>
+     <REPTEXT>Basistidsp</REPTEXT>
+     <SCRTEXT_S>Basistidsp</SCRTEXT_S>
+     <SCRTEXT_M>Basistidspunkt</SCRTEXT_M>
+     <SCRTEXT_L>Basistidspunkt</SCRTEXT_L>
+    </item>
+    <item>
+     <DDLANGUAGE>P</DDLANGUAGE>
+     <DDTEXT>Data base da reserva</DDTEXT>
+     <REPTEXT>Dt.base</REPTEXT>
+     <SCRTEXT_S>Data base</SCRTEXT_S>
+     <SCRTEXT_M>Data base</SCRTEXT_M>
+     <SCRTEXT_L>Data base</SCRTEXT_L>
+    </item>
+    <item>
+     <DDLANGUAGE>Q</DDLANGUAGE>
+     <DDTEXT>Základný termín rezervácie</DDTEXT>
+     <REPTEXT>ZáklTermín</REPTEXT>
+     <SCRTEXT_S>ZáklTermín</SCRTEXT_S>
+     <SCRTEXT_M>Zákl.termín</SCRTEXT_M>
+     <SCRTEXT_L>Zákl.termín</SCRTEXT_L>
+    </item>
+    <item>
+     <DDLANGUAGE>R</DDLANGUAGE>
+     <DDTEXT>Базисная дата резервирования</DDTEXT>
+     <REPTEXT>БазиснДата</REPTEXT>
+     <SCRTEXT_S>БазиснДата</SCRTEXT_S>
+     <SCRTEXT_M>Базисная дата</SCRTEXT_M>
+     <SCRTEXT_L>Базисная дата</SCRTEXT_L>
+    </item>
+    <item>
+     <DDLANGUAGE>S</DDLANGUAGE>
+     <DDTEXT>Fecha base de la reserva</DDTEXT>
+     <REPTEXT>Fecha base</REPTEXT>
+     <SCRTEXT_S>Fecha base</SCRTEXT_S>
+     <SCRTEXT_M>Fecha base</SCRTEXT_M>
+     <SCRTEXT_L>Fecha base</SCRTEXT_L>
+    </item>
+    <item>
+     <DDLANGUAGE>T</DDLANGUAGE>
+     <DDTEXT>Rezervasyon için temel alınan termin</DDTEXT>
+     <REPTEXT>Temel trm.</REPTEXT>
+     <SCRTEXT_S>Temel trm.</SCRTEXT_S>
+     <SCRTEXT_M>Temel termin</SCRTEXT_M>
+     <SCRTEXT_L>Temel alınan termin</SCRTEXT_L>
+    </item>
+    <item>
+     <DDLANGUAGE>U</DDLANGUAGE>
+     <DDTEXT>Varauksen peruspäivämäärä</DDTEXT>
+     <REPTEXT>Peruspvm</REPTEXT>
+     <SCRTEXT_S>Peruspvm</SCRTEXT_S>
+     <SCRTEXT_M>Peruspvm</SCRTEXT_M>
+     <SCRTEXT_L>Peruspvm</SCRTEXT_L>
+    </item>
+    <item>
+     <DDLANGUAGE>V</DDLANGUAGE>
+     <DDTEXT>Bastidpunkt för reservering</DDTEXT>
+     <REPTEXT>Bastidp.</REPTEXT>
+     <SCRTEXT_S>Bastidp.</SCRTEXT_S>
+     <SCRTEXT_M>Bastidpunkt</SCRTEXT_M>
+     <SCRTEXT_L>Bastidpunkt</SCRTEXT_L>
+    </item>
+    <item>
+     <DDLANGUAGE>W</DDLANGUAGE>
+     <DDTEXT>Базисна дата за резервиране</DDTEXT>
+     <REPTEXT>Баз. дата</REPTEXT>
+     <SCRTEXT_S>Баз. дата</SCRTEXT_S>
+     <SCRTEXT_M>Базисна дата</SCRTEXT_M>
+     <SCRTEXT_L>Базисна дата</SCRTEXT_L>
+    </item>
+    <item>
+     <DDLANGUAGE>d</DDLANGUAGE>
+     <DDTEXT>Osnovni datum za rezervaciju</DDTEXT>
+     <REPTEXT>Osn. datum</REPTEXT>
+     <SCRTEXT_S>Osn. datum</SCRTEXT_S>
+     <SCRTEXT_M>Osnovni datum</SCRTEXT_M>
+     <SCRTEXT_L>Osnovni datum</SCRTEXT_L>
+    </item>
+    <item>
+     <DDLANGUAGE>뱋</DDLANGUAGE>
+     <DDTEXT>Резервке сақтау үшін негізгі күн</DDTEXT>
+     <REPTEXT>Нег.күн</REPTEXT>
+     <SCRTEXT_S>Нег.күн</SCRTEXT_S>
+     <SCRTEXT_M>Нег.күн</SCRTEXT_M>
+     <SCRTEXT_L>Нег.күн</SCRTEXT_L>
+    </item>
+   </DD04_TEXTS>
+  </asx:values>
+ </asx:abap>
+</abapGit>

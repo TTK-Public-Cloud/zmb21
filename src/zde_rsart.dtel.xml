@@ -1,0 +1,319 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<abapGit version="v1.0.0" serializer="LCL_OBJECT_DTEL" serializer_version="v1.0.0">
+ <asx:abap xmlns:asx="http://www.sap.com/abapxml" version="1.0">
+  <asx:values>
+   <DD04V>
+    <ROLLNAME>ZDE_RSART</ROLLNAME>
+    <DDLANGUAGE>E</DDLANGUAGE>
+    <HEADLEN>03</HEADLEN>
+    <SCRLEN1>10</SCRLEN1>
+    <SCRLEN2>15</SCRLEN2>
+    <SCRLEN3>20</SCRLEN3>
+    <DDTEXT>Record type</DDTEXT>
+    <REPTEXT>RcT</REPTEXT>
+    <SCRTEXT_S>Rec. type</SCRTEXT_S>
+    <SCRTEXT_M>Record type</SCRTEXT_M>
+    <SCRTEXT_L>Record type</SCRTEXT_L>
+    <APPLCLASS>MD</APPLCLASS>
+    <DTELMASTER>D</DTELMASTER>
+    <DEFFDNAME>RES_TYPE</DEFFDNAME>
+    <DATATYPE>CHAR</DATATYPE>
+    <LENG>000001</LENG>
+    <OUTPUTLEN>000001</OUTPUTLEN>
+    <ABAP_LANGUAGE_VERSION>5</ABAP_LANGUAGE_VERSION>
+   </DD04V>
+   <I18N_LANGS>
+    <LANGU>1</LANGU>
+    <LANGU>2</LANGU>
+    <LANGU>3</LANGU>
+    <LANGU>4</LANGU>
+    <LANGU>5</LANGU>
+    <LANGU>6</LANGU>
+    <LANGU>7</LANGU>
+    <LANGU>8</LANGU>
+    <LANGU>A</LANGU>
+    <LANGU>B</LANGU>
+    <LANGU>C</LANGU>
+    <LANGU>D</LANGU>
+    <LANGU>F</LANGU>
+    <LANGU>G</LANGU>
+    <LANGU>H</LANGU>
+    <LANGU>I</LANGU>
+    <LANGU>J</LANGU>
+    <LANGU>K</LANGU>
+    <LANGU>L</LANGU>
+    <LANGU>M</LANGU>
+    <LANGU>N</LANGU>
+    <LANGU>O</LANGU>
+    <LANGU>P</LANGU>
+    <LANGU>Q</LANGU>
+    <LANGU>R</LANGU>
+    <LANGU>S</LANGU>
+    <LANGU>T</LANGU>
+    <LANGU>U</LANGU>
+    <LANGU>V</LANGU>
+    <LANGU>W</LANGU>
+    <LANGU>d</LANGU>
+    <LANGU>뱋</LANGU>
+   </I18N_LANGS>
+   <DD04_TEXTS>
+    <item>
+     <DDLANGUAGE>1</DDLANGUAGE>
+     <DDTEXT>记录类型</DDTEXT>
+     <REPTEXT>RcT</REPTEXT>
+     <SCRTEXT_S>记录类型</SCRTEXT_S>
+     <SCRTEXT_M>记录类型</SCRTEXT_M>
+     <SCRTEXT_L>记录类型</SCRTEXT_L>
+    </item>
+    <item>
+     <DDLANGUAGE>2</DDLANGUAGE>
+     <DDTEXT>ประเภทเรคคอร์ด</DDTEXT>
+     <REPTEXT>RcT</REPTEXT>
+     <SCRTEXT_S>Rec. type</SCRTEXT_S>
+     <SCRTEXT_M>ประเภทเรคคอร์ด</SCRTEXT_M>
+     <SCRTEXT_L>ประเภทเรคคอร์ด</SCRTEXT_L>
+    </item>
+    <item>
+     <DDLANGUAGE>3</DDLANGUAGE>
+     <DDTEXT>레코드 유형</DDTEXT>
+     <REPTEXT>RcT</REPTEXT>
+     <SCRTEXT_S>레코드유형</SCRTEXT_S>
+     <SCRTEXT_M>레코드 유형</SCRTEXT_M>
+     <SCRTEXT_L>레코드 유형</SCRTEXT_L>
+    </item>
+    <item>
+     <DDLANGUAGE>4</DDLANGUAGE>
+     <DDTEXT>Tip înregistrare</DDTEXT>
+     <REPTEXT>TÎn</REPTEXT>
+     <SCRTEXT_S>Tip înreg.</SCRTEXT_S>
+     <SCRTEXT_M>Tip înreg.</SCRTEXT_M>
+     <SCRTEXT_L>Tip înregistrare</SCRTEXT_L>
+    </item>
+    <item>
+     <DDLANGUAGE>5</DDLANGUAGE>
+     <DDTEXT>Vrsta zapisa</DDTEXT>
+     <REPTEXT>TiZ</REPTEXT>
+     <SCRTEXT_S>VrsZap</SCRTEXT_S>
+     <SCRTEXT_M>Vrsta zapisa</SCRTEXT_M>
+     <SCRTEXT_L>Vrsta zapisa</SCRTEXT_L>
+    </item>
+    <item>
+     <DDLANGUAGE>6</DDLANGUAGE>
+     <DDTEXT>Tip sloga</DDTEXT>
+     <REPTEXT>Tsl</REPTEXT>
+     <SCRTEXT_S>Tip sloga</SCRTEXT_S>
+     <SCRTEXT_M>Tip sloga</SCRTEXT_M>
+     <SCRTEXT_L>Tip sloga</SCRTEXT_L>
+    </item>
+    <item>
+     <DDLANGUAGE>7</DDLANGUAGE>
+     <DDTEXT>Jenis rekod</DDTEXT>
+     <REPTEXT>JnR</REPTEXT>
+     <SCRTEXT_S>Jenis rek</SCRTEXT_S>
+     <SCRTEXT_M>Jenis rekod</SCRTEXT_M>
+     <SCRTEXT_L>Jenis rekod</SCRTEXT_L>
+    </item>
+    <item>
+     <DDLANGUAGE>8</DDLANGUAGE>
+     <DDTEXT>Тип запису</DDTEXT>
+     <REPTEXT>ТЗ</REPTEXT>
+     <SCRTEXT_S>Тип зап.</SCRTEXT_S>
+     <SCRTEXT_M>Тип запису</SCRTEXT_M>
+     <SCRTEXT_L>Тип запису</SCRTEXT_L>
+    </item>
+    <item>
+     <DDLANGUAGE>A</DDLANGUAGE>
+     <DDTEXT>نوع السجل</DDTEXT>
+     <REPTEXT>RcT</REPTEXT>
+     <SCRTEXT_S>نوع السجل</SCRTEXT_S>
+     <SCRTEXT_M>نوع السجل</SCRTEXT_M>
+     <SCRTEXT_L>نوع السجل</SCRTEXT_L>
+    </item>
+    <item>
+     <DDLANGUAGE>B</DDLANGUAGE>
+     <DDTEXT>סוג רשומה</DDTEXT>
+     <REPTEXT>רשו</REPTEXT>
+     <SCRTEXT_S>סוג רשומה</SCRTEXT_S>
+     <SCRTEXT_M>סוג רשומה</SCRTEXT_M>
+     <SCRTEXT_L>סוג רשומה</SCRTEXT_L>
+    </item>
+    <item>
+     <DDLANGUAGE>C</DDLANGUAGE>
+     <DDTEXT>Druh záznamu</DDTEXT>
+     <REPTEXT>DrZ</REPTEXT>
+     <SCRTEXT_S>Dr.záznamu</SCRTEXT_S>
+     <SCRTEXT_M>Druh záznamu</SCRTEXT_M>
+     <SCRTEXT_L>Druh záznamu</SCRTEXT_L>
+    </item>
+    <item>
+     <DDLANGUAGE>D</DDLANGUAGE>
+     <DDTEXT>Satzart</DDTEXT>
+     <REPTEXT>SAr</REPTEXT>
+     <SCRTEXT_S>Satzart</SCRTEXT_S>
+     <SCRTEXT_M>Satzart</SCRTEXT_M>
+     <SCRTEXT_L>Satzart</SCRTEXT_L>
+    </item>
+    <item>
+     <DDLANGUAGE>F</DDLANGUAGE>
+     <DDTEXT>Type d&apos;enregistrement</DDTEXT>
+     <REPTEXT>TEn</REPTEXT>
+     <SCRTEXT_S>Type enr.</SCRTEXT_S>
+     <SCRTEXT_M>Type enregist.</SCRTEXT_M>
+     <SCRTEXT_L>Type enregistrement</SCRTEXT_L>
+    </item>
+    <item>
+     <DDLANGUAGE>G</DDLANGUAGE>
+     <DDTEXT>Τύπος εγγραφής</DDTEXT>
+     <REPTEXT>ΤΕγ</REPTEXT>
+     <SCRTEXT_S>Τύπ.εγγρ.</SCRTEXT_S>
+     <SCRTEXT_M>Τύπος εγγραφής</SCRTEXT_M>
+     <SCRTEXT_L>Τύπος εγγραφής</SCRTEXT_L>
+    </item>
+    <item>
+     <DDLANGUAGE>H</DDLANGUAGE>
+     <DDTEXT>Rekordfajta</DDTEXT>
+     <REPTEXT>RFa</REPTEXT>
+     <SCRTEXT_S>Rekordfjt</SCRTEXT_S>
+     <SCRTEXT_M>Rekordfajta</SCRTEXT_M>
+     <SCRTEXT_L>Rekordfajta</SCRTEXT_L>
+    </item>
+    <item>
+     <DDLANGUAGE>I</DDLANGUAGE>
+     <DDTEXT>Tipo di record</DDTEXT>
+     <REPTEXT>TpR</REPTEXT>
+     <SCRTEXT_S>Tp.rec.</SCRTEXT_S>
+     <SCRTEXT_M>Tipo di record</SCRTEXT_M>
+     <SCRTEXT_L>Tipo di record</SCRTEXT_L>
+    </item>
+    <item>
+     <DDLANGUAGE>J</DDLANGUAGE>
+     <DDTEXT>レコードタイプ</DDTEXT>
+     <REPTEXT>RcT</REPTEXT>
+     <SCRTEXT_S>Rec. Type</SCRTEXT_S>
+     <SCRTEXT_M>レコードタイプ</SCRTEXT_M>
+     <SCRTEXT_L>レコードタイプ</SCRTEXT_L>
+    </item>
+    <item>
+     <DDLANGUAGE>K</DDLANGUAGE>
+     <DDTEXT>Recordart</DDTEXT>
+     <REPTEXT>RAr</REPTEXT>
+     <SCRTEXT_S>Recordart</SCRTEXT_S>
+     <SCRTEXT_M>Recordart</SCRTEXT_M>
+     <SCRTEXT_L>Recordart</SCRTEXT_L>
+    </item>
+    <item>
+     <DDLANGUAGE>L</DDLANGUAGE>
+     <DDTEXT>Rodzaj rekordu</DDTEXT>
+     <REPTEXT>TyR</REPTEXT>
+     <SCRTEXT_S>Rodz. rek.</SCRTEXT_S>
+     <SCRTEXT_M>Rodzaj rekordu</SCRTEXT_M>
+     <SCRTEXT_L>Rodzaj rekordu</SCRTEXT_L>
+    </item>
+    <item>
+     <DDLANGUAGE>M</DDLANGUAGE>
+     <DDTEXT>記錄類型</DDTEXT>
+     <REPTEXT>RcT</REPTEXT>
+     <SCRTEXT_S>記錄類型</SCRTEXT_S>
+     <SCRTEXT_M>記錄類型</SCRTEXT_M>
+     <SCRTEXT_L>記錄類型</SCRTEXT_L>
+    </item>
+    <item>
+     <DDLANGUAGE>N</DDLANGUAGE>
+     <DDTEXT>Recordsoort</DDTEXT>
+     <REPTEXT>RSr</REPTEXT>
+     <SCRTEXT_S>Recordsrt</SCRTEXT_S>
+     <SCRTEXT_M>Recordsoort</SCRTEXT_M>
+     <SCRTEXT_L>Recordsoort</SCRTEXT_L>
+    </item>
+    <item>
+     <DDLANGUAGE>O</DDLANGUAGE>
+     <DDTEXT>Posttype</DDTEXT>
+     <REPTEXT>PTy</REPTEXT>
+     <SCRTEXT_S>Posttype</SCRTEXT_S>
+     <SCRTEXT_M>Posttype</SCRTEXT_M>
+     <SCRTEXT_L>Posttype</SCRTEXT_L>
+    </item>
+    <item>
+     <DDLANGUAGE>P</DDLANGUAGE>
+     <DDTEXT>Tipo de registro</DDTEXT>
+     <REPTEXT>TpR</REPTEXT>
+     <SCRTEXT_S>Tipo reg.</SCRTEXT_S>
+     <SCRTEXT_M>Tipo registro</SCRTEXT_M>
+     <SCRTEXT_L>Tipo de registro</SCRTEXT_L>
+    </item>
+    <item>
+     <DDLANGUAGE>Q</DDLANGUAGE>
+     <DDTEXT>Dr.zázn.</DDTEXT>
+     <REPTEXT>DZá</REPTEXT>
+     <SCRTEXT_S>Dr.záznamu</SCRTEXT_S>
+     <SCRTEXT_M>Druh záznamu</SCRTEXT_M>
+     <SCRTEXT_L>Druh záznamu</SCRTEXT_L>
+    </item>
+    <item>
+     <DDLANGUAGE>R</DDLANGUAGE>
+     <DDTEXT>Вид записи</DDTEXT>
+     <REPTEXT>ВЗ</REPTEXT>
+     <SCRTEXT_S>Вид записи</SCRTEXT_S>
+     <SCRTEXT_M>Вид записи</SCRTEXT_M>
+     <SCRTEXT_L>Вид записи</SCRTEXT_L>
+    </item>
+    <item>
+     <DDLANGUAGE>S</DDLANGUAGE>
+     <DDTEXT>Clase de registro</DDTEXT>
+     <REPTEXT>ClR</REPTEXT>
+     <SCRTEXT_S>Cl.reg.</SCRTEXT_S>
+     <SCRTEXT_M>Cl.reg.</SCRTEXT_M>
+     <SCRTEXT_L>Clase de registro</SCRTEXT_L>
+    </item>
+    <item>
+     <DDLANGUAGE>T</DDLANGUAGE>
+     <DDTEXT>Kayıt türü</DDTEXT>
+     <REPTEXT>KTü</REPTEXT>
+     <SCRTEXT_S>Kayıt türü</SCRTEXT_S>
+     <SCRTEXT_M>Kayıt türü</SCRTEXT_M>
+     <SCRTEXT_L>Kayıt türü</SCRTEXT_L>
+    </item>
+    <item>
+     <DDLANGUAGE>U</DDLANGUAGE>
+     <DDTEXT>Tietuelaji</DDTEXT>
+     <REPTEXT>TLj</REPTEXT>
+     <SCRTEXT_S>Tietuelaji</SCRTEXT_S>
+     <SCRTEXT_M>Tietuelaji</SCRTEXT_M>
+     <SCRTEXT_L>Tietuelaji</SCRTEXT_L>
+    </item>
+    <item>
+     <DDLANGUAGE>V</DDLANGUAGE>
+     <DDTEXT>Posttyp</DDTEXT>
+     <REPTEXT>PT</REPTEXT>
+     <SCRTEXT_S>Posttyp</SCRTEXT_S>
+     <SCRTEXT_M>Posttyp</SCRTEXT_M>
+     <SCRTEXT_L>Posttyp</SCRTEXT_L>
+    </item>
+    <item>
+     <DDLANGUAGE>W</DDLANGUAGE>
+     <DDTEXT>Тип запис</DDTEXT>
+     <REPTEXT>ТЗ</REPTEXT>
+     <SCRTEXT_S>Тип запис</SCRTEXT_S>
+     <SCRTEXT_M>Тип запис</SCRTEXT_M>
+     <SCRTEXT_L>Тип запис</SCRTEXT_L>
+    </item>
+    <item>
+     <DDLANGUAGE>d</DDLANGUAGE>
+     <DDTEXT>Tip zapisa</DDTEXT>
+     <REPTEXT>TZp</REPTEXT>
+     <SCRTEXT_S>Tip zapisa</SCRTEXT_S>
+     <SCRTEXT_M>Tip zapisa</SCRTEXT_M>
+     <SCRTEXT_L>Tip zapisa</SCRTEXT_L>
+    </item>
+    <item>
+     <DDLANGUAGE>뱋</DDLANGUAGE>
+     <DDTEXT>Жазба түрі</DDTEXT>
+     <REPTEXT>ЖзТ</REPTEXT>
+     <SCRTEXT_S>Жазба түрі</SCRTEXT_S>
+     <SCRTEXT_M>Жазба түрі</SCRTEXT_M>
+     <SCRTEXT_L>Жазба түрі</SCRTEXT_L>
+    </item>
+   </DD04_TEXTS>
+  </asx:values>
+ </asx:abap>
+</abapGit>

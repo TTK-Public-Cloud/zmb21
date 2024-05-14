@@ -1,0 +1,318 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<abapGit version="v1.0.0" serializer="LCL_OBJECT_DTEL" serializer_version="v1.0.0">
+ <asx:abap xmlns:asx="http://www.sap.com/abapxml" version="1.0">
+  <asx:values>
+   <DD04V>
+    <ROLLNAME>ZDE_RSPOS</ROLLNAME>
+    <DDLANGUAGE>E</DDLANGUAGE>
+    <HEADLEN>03</HEADLEN>
+    <SCRLEN1>10</SCRLEN1>
+    <SCRLEN2>15</SCRLEN2>
+    <SCRLEN3>30</SCRLEN3>
+    <DDTEXT>Item Number of Reservation / Dependent Requirements</DDTEXT>
+    <REPTEXT>Itm</REPTEXT>
+    <SCRTEXT_S>Item no.</SCRTEXT_S>
+    <SCRTEXT_M>Item no.</SCRTEXT_M>
+    <SCRTEXT_L>Item number of reservation</SCRTEXT_L>
+    <APPLCLASS>MD</APPLCLASS>
+    <DTELMASTER>D</DTELMASTER>
+    <DATATYPE>NUMC</DATATYPE>
+    <LENG>000004</LENG>
+    <OUTPUTLEN>000004</OUTPUTLEN>
+    <ABAP_LANGUAGE_VERSION>5</ABAP_LANGUAGE_VERSION>
+   </DD04V>
+   <I18N_LANGS>
+    <LANGU>1</LANGU>
+    <LANGU>2</LANGU>
+    <LANGU>3</LANGU>
+    <LANGU>4</LANGU>
+    <LANGU>5</LANGU>
+    <LANGU>6</LANGU>
+    <LANGU>7</LANGU>
+    <LANGU>8</LANGU>
+    <LANGU>A</LANGU>
+    <LANGU>B</LANGU>
+    <LANGU>C</LANGU>
+    <LANGU>D</LANGU>
+    <LANGU>F</LANGU>
+    <LANGU>G</LANGU>
+    <LANGU>H</LANGU>
+    <LANGU>I</LANGU>
+    <LANGU>J</LANGU>
+    <LANGU>K</LANGU>
+    <LANGU>L</LANGU>
+    <LANGU>M</LANGU>
+    <LANGU>N</LANGU>
+    <LANGU>O</LANGU>
+    <LANGU>P</LANGU>
+    <LANGU>Q</LANGU>
+    <LANGU>R</LANGU>
+    <LANGU>S</LANGU>
+    <LANGU>T</LANGU>
+    <LANGU>U</LANGU>
+    <LANGU>V</LANGU>
+    <LANGU>W</LANGU>
+    <LANGU>d</LANGU>
+    <LANGU>뱋</LANGU>
+   </I18N_LANGS>
+   <DD04_TEXTS>
+    <item>
+     <DDLANGUAGE>1</DDLANGUAGE>
+     <DDTEXT>预留/相关需求的项目编号</DDTEXT>
+     <REPTEXT>项</REPTEXT>
+     <SCRTEXT_S>项目编号</SCRTEXT_S>
+     <SCRTEXT_M>项目编号</SCRTEXT_M>
+     <SCRTEXT_L>预留项目编号</SCRTEXT_L>
+    </item>
+    <item>
+     <DDLANGUAGE>2</DDLANGUAGE>
+     <DDTEXT>เลขที่รายการของการสำรอง/ความต้องการที่ขึ้นต่อกัน</DDTEXT>
+     <REPTEXT>รก.</REPTEXT>
+     <SCRTEXT_S>เลขรายการ</SCRTEXT_S>
+     <SCRTEXT_M>เลขที่รายการ</SCRTEXT_M>
+     <SCRTEXT_L>เลขที่รายการของการสำรอง</SCRTEXT_L>
+    </item>
+    <item>
+     <DDLANGUAGE>3</DDLANGUAGE>
+     <DDTEXT>예약/종속 소요량의 품목 번호</DDTEXT>
+     <REPTEXT>Itm</REPTEXT>
+     <SCRTEXT_S>품목 번호</SCRTEXT_S>
+     <SCRTEXT_M>품목 번호</SCRTEXT_M>
+     <SCRTEXT_L>예약 품목 번호</SCRTEXT_L>
+    </item>
+    <item>
+     <DDLANGUAGE>4</DDLANGUAGE>
+     <DDTEXT>Număr poziţie de rezervare / necesar dependent</DDTEXT>
+     <REPTEXT>Poz</REPTEXT>
+     <SCRTEXT_S>Nr.poziţie</SCRTEXT_S>
+     <SCRTEXT_M>Nr.poziţie</SCRTEXT_M>
+     <SCRTEXT_L>Număr poziţie de rezervare</SCRTEXT_L>
+    </item>
+    <item>
+     <DDLANGUAGE>5</DDLANGUAGE>
+     <DDTEXT>Številka postavke rezervacije/sekundarne potrebe</DDTEXT>
+     <REPTEXT>Pos</REPTEXT>
+     <SCRTEXT_S>Postavka</SCRTEXT_S>
+     <SCRTEXT_M>Postavka</SCRTEXT_M>
+     <SCRTEXT_L>Št.post.rezer.presk.</SCRTEXT_L>
+    </item>
+    <item>
+     <DDLANGUAGE>6</DDLANGUAGE>
+     <DDTEXT>Broj stavke rezervacije / zavisnih potreba</DDTEXT>
+     <REPTEXT>St.</REPTEXT>
+     <SCRTEXT_S>Br. stavke</SCRTEXT_S>
+     <SCRTEXT_M>Broj stavke</SCRTEXT_M>
+     <SCRTEXT_L>Broj stavke rezervacije</SCRTEXT_L>
+    </item>
+    <item>
+     <DDLANGUAGE>7</DDLANGUAGE>
+     <DDTEXT>Bilangan Tempahan / Keperluan Bersandar Item</DDTEXT>
+     <REPTEXT>Itm</REPTEXT>
+     <SCRTEXT_S>Nom. item</SCRTEXT_S>
+     <SCRTEXT_M>Nombor item</SCRTEXT_M>
+     <SCRTEXT_L>Bilangan item tempahan</SCRTEXT_L>
+    </item>
+    <item>
+     <DDLANGUAGE>8</DDLANGUAGE>
+     <DDTEXT>Номер позиції резервування / вторинних потреб</DDTEXT>
+     <REPTEXT>П.</REPTEXT>
+     <SCRTEXT_S>№ позиц.</SCRTEXT_S>
+     <SCRTEXT_M>Номер позиції</SCRTEXT_M>
+     <SCRTEXT_L>Номер позиції резервування</SCRTEXT_L>
+    </item>
+    <item>
+     <DDLANGUAGE>A</DDLANGUAGE>
+     <DDTEXT>رقم بند الحجز / المتطلبات التابعة</DDTEXT>
+     <REPTEXT>بند</REPTEXT>
+     <SCRTEXT_S>رقم البند</SCRTEXT_S>
+     <SCRTEXT_M>رقم البند</SCRTEXT_M>
+     <SCRTEXT_L>رقم بند الحجز</SCRTEXT_L>
+    </item>
+    <item>
+     <DDLANGUAGE>B</DDLANGUAGE>
+     <DDTEXT>מספר פריט של שריון/דרישות תלויות</DDTEXT>
+     <REPTEXT>פר.</REPTEXT>
+     <SCRTEXT_S>מספר פריט</SCRTEXT_S>
+     <SCRTEXT_M>מספר פריט</SCRTEXT_M>
+     <SCRTEXT_L>מספר פריט של שריון</SCRTEXT_L>
+    </item>
+    <item>
+     <DDLANGUAGE>C</DDLANGUAGE>
+     <DDTEXT>Číslo položky rezervace / sekundární potřeby</DDTEXT>
+     <REPTEXT>Pol</REPTEXT>
+     <SCRTEXT_S>Položka</SCRTEXT_S>
+     <SCRTEXT_M>Položka</SCRTEXT_M>
+     <SCRTEXT_L>Číslo pol.rezervace přesklad.</SCRTEXT_L>
+    </item>
+    <item>
+     <DDLANGUAGE>D</DDLANGUAGE>
+     <DDTEXT>Positionsnummer der Reservierung / des Sekundärbedarfs</DDTEXT>
+     <REPTEXT>Pos</REPTEXT>
+     <SCRTEXT_S>Position</SCRTEXT_S>
+     <SCRTEXT_M>Position</SCRTEXT_M>
+     <SCRTEXT_L>Pos-Nr UmlagReservierung</SCRTEXT_L>
+    </item>
+    <item>
+     <DDLANGUAGE>F</DDLANGUAGE>
+     <DDTEXT>Numéro du poste de réservation / besoin dépendant</DDTEXT>
+     <REPTEXT>Pos</REPTEXT>
+     <SCRTEXT_S>Poste</SCRTEXT_S>
+     <SCRTEXT_M>Poste</SCRTEXT_M>
+     <SCRTEXT_L>N° poste réservation trsf.</SCRTEXT_L>
+    </item>
+    <item>
+     <DDLANGUAGE>G</DDLANGUAGE>
+     <DDTEXT>Αριθμός Αναλυτικής Γραμμής Κράτησης/Εξαρτώμενες Απαιτήσεις</DDTEXT>
+     <REPTEXT>ΑνΓ</REPTEXT>
+     <SCRTEXT_S>Αρ.Αν.Γρ.</SCRTEXT_S>
+     <SCRTEXT_M>Αρ.Αν.Γρ.</SCRTEXT_M>
+     <SCRTEXT_L>Αρ.ανάλ.γραμμής δέσμευσης</SCRTEXT_L>
+    </item>
+    <item>
+     <DDLANGUAGE>H</DDLANGUAGE>
+     <DDTEXT>Foglalás / másodlagos szükséglet tételszáma</DDTEXT>
+     <REPTEXT>Tét</REPTEXT>
+     <SCRTEXT_S>Tétel</SCRTEXT_S>
+     <SCRTEXT_M>Tétel</SCRTEXT_M>
+     <SCRTEXT_L>Áttárolás-foglalás tételszáma</SCRTEXT_L>
+    </item>
+    <item>
+     <DDLANGUAGE>I</DDLANGUAGE>
+     <DDTEXT>Numero posizione dell&apos;impegno / del fabbisogno dipendente</DDTEXT>
+     <REPTEXT>Pos</REPTEXT>
+     <SCRTEXT_S>Posizione</SCRTEXT_S>
+     <SCRTEXT_M>Posizione</SCRTEXT_M>
+     <SCRTEXT_L>N. pos. impegno trasf. merci</SCRTEXT_L>
+    </item>
+    <item>
+     <DDLANGUAGE>J</DDLANGUAGE>
+     <DDTEXT>入出庫予定/従属所要量の明細番号</DDTEXT>
+     <REPTEXT>Itm</REPTEXT>
+     <SCRTEXT_S>明細番号</SCRTEXT_S>
+     <SCRTEXT_M>明細番号</SCRTEXT_M>
+     <SCRTEXT_L>入出庫予定明細番号</SCRTEXT_L>
+    </item>
+    <item>
+     <DDLANGUAGE>K</DDLANGUAGE>
+     <DDTEXT>Positionsnummer på reservering / sekundærbehov</DDTEXT>
+     <REPTEXT>Pos</REPTEXT>
+     <SCRTEXT_S>Position</SCRTEXT_S>
+     <SCRTEXT_M>Position</SCRTEXT_M>
+     <SCRTEXT_L>Pos.nr. omlagr.reservering</SCRTEXT_L>
+    </item>
+    <item>
+     <DDLANGUAGE>L</DDLANGUAGE>
+     <DDTEXT>Numer pozycji rezerwacji / zapotrzebowań zależnych</DDTEXT>
+     <REPTEXT>Poz</REPTEXT>
+     <SCRTEXT_S>Pozycja</SCRTEXT_S>
+     <SCRTEXT_M>Pozycja</SCRTEXT_M>
+     <SCRTEXT_L>Nr pozycji rezerw.przesun.mag.</SCRTEXT_L>
+    </item>
+    <item>
+     <DDLANGUAGE>M</DDLANGUAGE>
+     <DDTEXT>預留/相關需求的項目號碼</DDTEXT>
+     <REPTEXT>項</REPTEXT>
+     <SCRTEXT_S>項目號碼</SCRTEXT_S>
+     <SCRTEXT_M>項目號碼</SCRTEXT_M>
+     <SCRTEXT_L>預留的項目號碼</SCRTEXT_L>
+    </item>
+    <item>
+     <DDLANGUAGE>N</DDLANGUAGE>
+     <DDTEXT>Positienummer van reservering/afhankelijke behoefte</DDTEXT>
+     <REPTEXT>Pos</REPTEXT>
+     <SCRTEXT_S>Positie</SCRTEXT_S>
+     <SCRTEXT_M>Positie</SCRTEXT_M>
+     <SCRTEXT_L>Pos.nr. mag.transp.reservering</SCRTEXT_L>
+    </item>
+    <item>
+     <DDLANGUAGE>O</DDLANGUAGE>
+     <DDTEXT>Posisjonsnummer for reservering / avhengig behov</DDTEXT>
+     <REPTEXT>Pos</REPTEXT>
+     <SCRTEXT_S>Posisjon</SCRTEXT_S>
+     <SCRTEXT_M>Posisjon</SCRTEXT_M>
+     <SCRTEXT_L>Pos.nr - res. for lageroverf.</SCRTEXT_L>
+    </item>
+    <item>
+     <DDLANGUAGE>P</DDLANGUAGE>
+     <DDTEXT>Nº item da reserva / das necessidades dependentes</DDTEXT>
+     <REPTEXT>Itm</REPTEXT>
+     <SCRTEXT_S>Item</SCRTEXT_S>
+     <SCRTEXT_M>Item</SCRTEXT_M>
+     <SCRTEXT_L>Nº item reserva transferência</SCRTEXT_L>
+    </item>
+    <item>
+     <DDLANGUAGE>Q</DDLANGUAGE>
+     <DDTEXT>Číslo položky rezervácie / sekundárnej potreby</DDTEXT>
+     <REPTEXT>Pol</REPTEXT>
+     <SCRTEXT_S>Položka</SCRTEXT_S>
+     <SCRTEXT_M>Položka</SCRTEXT_M>
+     <SCRTEXT_L>Č.pol.rezervácie preskladnenia</SCRTEXT_L>
+    </item>
+    <item>
+     <DDLANGUAGE>R</DDLANGUAGE>
+     <DDTEXT>Номер позиции резервирования/вторичной потребности</DDTEXT>
+     <REPTEXT>Поз</REPTEXT>
+     <SCRTEXT_S>Позиция</SCRTEXT_S>
+     <SCRTEXT_M>Позиция</SCRTEXT_M>
+     <SCRTEXT_L>№Поз РезервированПеремещЗапаса</SCRTEXT_L>
+    </item>
+    <item>
+     <DDLANGUAGE>S</DDLANGUAGE>
+     <DDTEXT>Número de posición de reserva/necesidades secundarias</DDTEXT>
+     <REPTEXT>Pos</REPTEXT>
+     <SCRTEXT_S>Posición</SCRTEXT_S>
+     <SCRTEXT_M>Posición</SCRTEXT_M>
+     <SCRTEXT_L>Nº pos.reserva traslado</SCRTEXT_L>
+    </item>
+    <item>
+     <DDLANGUAGE>T</DDLANGUAGE>
+     <DDTEXT>Rezervasyon/ikincil ihtiyaç kalem numarası</DDTEXT>
+     <REPTEXT>Klm</REPTEXT>
+     <SCRTEXT_S>Kalem</SCRTEXT_S>
+     <SCRTEXT_M>Kalem</SCRTEXT_M>
+     <SCRTEXT_L>Nakil rezervasyonu kalem no.</SCRTEXT_L>
+    </item>
+    <item>
+     <DDLANGUAGE>U</DDLANGUAGE>
+     <DDTEXT>Varauksen/kohdistetun tarpeen rivinumero</DDTEXT>
+     <REPTEXT>Rvi</REPTEXT>
+     <SCRTEXT_S>Rivi</SCRTEXT_S>
+     <SCRTEXT_M>Rivi</SCRTEXT_M>
+     <SCRTEXT_L>Varastosiirtovarauksen rivinro</SCRTEXT_L>
+    </item>
+    <item>
+     <DDLANGUAGE>V</DDLANGUAGE>
+     <DDTEXT>Positionsnummer för reservering / beroende behov</DDTEXT>
+     <REPTEXT>Pos</REPTEXT>
+     <SCRTEXT_S>Position</SCRTEXT_S>
+     <SCRTEXT_M>Position</SCRTEXT_M>
+     <SCRTEXT_L>Pos.nr omlagr.reserv.</SCRTEXT_L>
+    </item>
+    <item>
+     <DDLANGUAGE>W</DDLANGUAGE>
+     <DDTEXT>Номер на позиция на резервация/ зависими потребности</DDTEXT>
+     <REPTEXT>Поз</REPTEXT>
+     <SCRTEXT_S>№ позиция</SCRTEXT_S>
+     <SCRTEXT_M>№ на позиция</SCRTEXT_M>
+     <SCRTEXT_L>Ном. на позиция на резервация</SCRTEXT_L>
+    </item>
+    <item>
+     <DDLANGUAGE>d</DDLANGUAGE>
+     <DDTEXT>Broj stavke rezervacije / zavisnih potreba</DDTEXT>
+     <REPTEXT>St.</REPTEXT>
+     <SCRTEXT_S>Br.stavke</SCRTEXT_S>
+     <SCRTEXT_M>Broj stavke</SCRTEXT_M>
+     <SCRTEXT_L>Broj stavke rezervacije</SCRTEXT_L>
+    </item>
+    <item>
+     <DDLANGUAGE>뱋</DDLANGUAGE>
+     <DDTEXT>Резервтің тармақ нөмірі / тәуелді қажеттіліктер</DDTEXT>
+     <REPTEXT>Трм</REPTEXT>
+     <SCRTEXT_S>Тармақ №</SCRTEXT_S>
+     <SCRTEXT_M>Тармақ №</SCRTEXT_M>
+     <SCRTEXT_L>Резервтің тармақ нөмірі</SCRTEXT_L>
+    </item>
+   </DD04_TEXTS>
+  </asx:values>
+ </asx:abap>
+</abapGit>
